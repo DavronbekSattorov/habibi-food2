@@ -1,0 +1,198 @@
+.story {
+    width: 85%;
+    margin: auto;
+    height: 200px;
+    margin-top: 30px  ;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.slick-next:before {
+    color: rgb(39, 39, 37) !important;
+  }
+
+ .slick-prev:before {
+    color: rgb(39, 39, 37) !important;
+ } 
+
+ .story-box {
+     width: 140px;
+     height: 200px;
+     text-align: center;
+     
+ }
+
+ .story-image {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 5px;
+ }
+
+.menuBar {
+    width: 85%;
+    height: fit-content;
+    margin: auto;
+}
+
+.divider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.food-box-img {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+/*----- Modal --------*/
+
+.modalContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(49, 46, 46, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.modal-box {
+    width: 30%;
+    height: 40%;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+}
+
+.modal-box-left {
+    width: 45%;
+    padding: 15px;
+}
+
+.modal-box-right {
+    width: 50%;
+    padding: 15px;
+    position: relative;
+}
+
+.modal-box-left h4 {
+    margin: 0;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.modal-box-left p {
+    margin: 0;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+
+.modal-box-right-img {
+    width: 100%;
+    height: 60%;
+    margin: auto;
+    
+}
+
+.modal-close {
+    position: absolute;
+    top: 5;
+    right: 15px;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: rgb(65, 176, 250);
+}
+
+/*---------- Shopping Card -----------*/
+
+.shoppingCard-container {
+    width: 80%;
+    margin: auto;
+}
+
+.shoppingCard-selected {
+    width: 80%;
+    margin: auto;
+    height: 600px;
+    overflow: auto;
+    
+}
+
+.shoppingCard-selectedBox {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.shoppinCard-img {
+    width: 20%;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.shoppinCard-img img {
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+.shoppingCard-name {
+    width: 60%;
+}
+
+.shoppingCard-name h3, p {
+    margin: 0;
+    padding: 5px;
+}
+.shoppingCard-add {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.shoppingCard-add button {
+    height: 20px;
+    background-color: white;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    padding-top: 0;
+    color: rgb(71, 166, 255);
+}
+
+.shoppingCard-add button:hover {
+    color: rgb(22, 141, 253);
+    
+}
+
+.shoppingCard-buttons {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total {
+    margin-left: 30px;
+    padding-top: 5px;
+}
