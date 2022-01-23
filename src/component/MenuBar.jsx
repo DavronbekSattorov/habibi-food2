@@ -22,12 +22,12 @@ const MenuBar = () => {
     return(
         <div className="menuBar">
             <h1>Food Categories</h1>
-            <Stack direction="row" spacing={3}>
-                <Button variant="outlined" onClick={e => handleFoodType(e)}>Breakfast</Button>
-                <Button variant="outlined" onClick={e => handleFoodType(e)}>Lunch</Button>
-                <Button variant="outlined" onClick={e => handleFoodType(e)}>Dinner</Button>
-                <Button variant="outlined" onClick={e => handleFoodType(e)}>Dessert</Button>
-                <Button variant="outlined" onClick={e => handleFoodType(e)}>Drinks</Button>
+            <Stack direction="row" spacing={3} style={{display:'flex', flexWrap:'wrap'}}>
+                <Button variant="outlined" onClick={e => handleFoodType(e)} style={{marginBottom: '10px'}}>Breakfast</Button>
+                <Button variant="outlined" onClick={e => handleFoodType(e)} style={{marginBottom: '10px'}}>Lunch</Button>
+                <Button variant="outlined" onClick={e => handleFoodType(e)} style={{marginBottom: '10px'}}> Dinner</Button>
+                <Button variant="outlined" onClick={e => handleFoodType(e)} style={{marginBottom: '10px'}}>Dessert</Button>
+                <Button variant="outlined" onClick={e => handleFoodType(e)} style={{marginBottom: '10px'}}>Drinks</Button>
                
             </Stack>
 

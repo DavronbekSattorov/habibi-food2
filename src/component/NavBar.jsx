@@ -102,24 +102,29 @@ const NavBar = () => {
         onClose={handleMobileMenuClose}
       >
         <MenuItem>
+        <Link to = '/' style={{color:'black'}}>
           <IconButton size="large" aria-label="show 4 new mails" color="inherit">
             <Badge badgeContent={4} color="error">
-              <MailIcon />
+              <HomeIcon />
             </Badge>
           </IconButton>
-          <p>Messages</p>
+
+        </Link>
+          <p>Stories</p>
         </MenuItem>
         <MenuItem>
+        <Link to='/shoppingCard' style={{color:'black'}}>
           <IconButton
             size="large"
             aria-label="show 17 new notifications"
             color="inherit"
           >
             <Badge badgeContent={17} color="error">
-              <NotificationsIcon />
+              <ShoppingCartIcon />
             </Badge>
           </IconButton>
-          <p>Notifications</p>
+          </Link>
+          <p>Basket</p>
         </MenuItem>
         <MenuItem onClick={handleProfileMenuOpen}>
           <IconButton
